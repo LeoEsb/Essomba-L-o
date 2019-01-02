@@ -360,7 +360,7 @@ def regle():
 fenetre=Tk()
 fenetre.title('ACCUEIL')
 canevas=Canvas(fenetre,width=1000,height=500,bg='black')
-btn_raz=Button(fenetre,text='JOUER',command=jeu ,width=20)exc
+btn_raz=Button(fenetre,text='JOUER',command=jeu ,width=20)
 btn_quitter=Button(fenetre,text='QUITTER',command=fenetre.destroy,width=20)
 btn_parametre=Button(fenetre,text='PARAMETRES',command=parametre,width=20)
 btn_regle=Button(fenetre,text='REGLES',command=regle,width=20)
